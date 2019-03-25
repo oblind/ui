@@ -1,0 +1,7 @@
+.vscode/
+vendor/
+npm_modules/
+public/
+dist/
+package-lock.json
+composer.lock

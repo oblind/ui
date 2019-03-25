@@ -1,0 +1,36 @@
+{
+  "name": "oblind-ui",
+  "version": "0.0.1",
+  "description": "oblind user interface with vue",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oblind/ui.git"
+  },
+  "keywords": [
+    "oblind",
+    "ui",
+    "vue"
+  ],
+  "author": "oblind",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/oblind/ui/issues"
+  },
+  "homepage": "https://github.com/oblind/ui#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "js-cookie": "^2.2.0",
+    "pinyin-engine": "github:oblind/pinyin-engine",
+    "vue": "^2.6.10",
+    "vue-router": "^3.0.2",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "laravel-mix": "^4.0.15",
+    "vue-template-compiler": "^2.6.10"
+  }
+}
