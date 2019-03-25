@@ -1,0 +1,82 @@
+.dt-out {
+  margin-bottom: .2em;
+  position: relative;
+  overflow: auto;
+}
+.dt-head {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.dt-body {margin-top: -2em}
+table.datable {
+  border-spacing: 0;
+  text-align: center;
+  width: 100%;
+}
+.datable caption {
+  min-height: 1.2em;
+  font-weight: bold;
+  padding-top: .2em;
+  position: relative;
+}
+.dt-head, .datable caption {background-color: #bdb}
+.datable tbody {background-color: white}
+.datable thead {white-space: nowrap}
+.datable tr {height: 2em}
+.datable tr:nth-of-type(even) {background-color: #dfd}
+.datable th {
+  background-color: lightblue;
+  border-width: 1px;
+  border-style: solid;
+  border-color: white #aaa #aaa white;
+}
+.datable thead tr:first-child th:first-child {border-top-left-radius: .5em}
+.datable thead tr:first-child th:last-child {border-top-right-radius: .5em}
+.datable th>div {display: inline-block}
+.datable td {
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+.datable-left {text-align: left}
+.datable td label {display: inline-block}
+.datable a, .datable button {margin: 0 .1em}
+.datable button {white-space: nowrap}
+.datable input, .datable select {
+  font-size: 1em;
+  width: 100%;
+  min-height: 1.8em;
+  box-sizing: border-box;
+}
+.datable input[type=checkbox], .datable input[type=radio] {
+  width: auto;
+  min-height: auto;
+}
+.datable pre {
+  margin: 0;
+  text-align: left;
+  min-height: 2em;
+  white-space: pre-wrap;
+}
+tr.selection {
+  color: white;
+  background-color: #37f !important;
+}
+.act {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+div.act, a.act {
+  padding: 0 .3em;
+  border-radius: .3em;
+  background-color: white;
+}
+.act>* {margin: .2em !important}
+.dt-info {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  font-weight: normal;
+}
+.dt-nowrap {white-space: nowrap}

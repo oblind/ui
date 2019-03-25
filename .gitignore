@@ -1,6 +1,6 @@
 .vscode/
 vendor/
-npm_modules/
+node_modules/
 public/
 dist/
 package-lock.json
